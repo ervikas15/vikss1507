@@ -48,7 +48,7 @@
         <div class="info-content">
           <h1 class="name" title="Vikas Singla">Vikas Singla</h1>
 
-          <p class="title">Software Engineering Analyst</p>
+          <p class="title">Data Science Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -170,6 +170,10 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
+		  
+		  <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>PortFolio</button>
+          </li>
 
 								  
 																	  
@@ -195,7 +199,7 @@
 
         <section class="about-text">
           <p>
-            I'm a Software Engineer and Data science Engineer from New Delhi, India, providing professional IT solutions.
+            I'm a Data science Engineer from New Delhi, India, providing professional IT solutions.
             I enjoy
             understanding complex problems and applying my analytical and logical thinking into solving them with the help of technologies like python, spark, Cloud Computing, DevOps.
           </p>
@@ -231,7 +235,7 @@
                 <h4 class="h4 service-item-title">Programming</h4>
 
                 <p class="service-item-text">
-                  I code in Python and have experience in using spark, pandas. Also, can understand and write HTML & CSS scripts.
+                  I code in Python and have experience developing ETL transformations using spark, pandas. Also, can understand and write HTML & CSS scripts.
                 </p>
               </div>
 
@@ -247,7 +251,7 @@
                 <h4 class="h4 service-item-title">Amazon Web Services</h4>
 
                 <p class="service-item-text">
-                  I have rich hands on experience on various AWS services like Lambda, Glue, RedShift, S3, IAM etc.
+                  I have rich hands on experience on various AWS services like Lambda, Glue, RedShift, S3, IAM etc. Also, holds AWS Solutions Architect Associate Certification.
                 </p>
               </div>
 
@@ -411,6 +415,25 @@
           </ol>
 
         </section>
+		
+		<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Download</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+			  <a href="./assets/Vikas's Resume.pdf" target="_blank"><h4 class="h4 timeline-item-title">Download Resume</h4></a>         
+
+          </ol>
+
+        </section>
 
         <section class="skill">
 
@@ -486,39 +509,63 @@
       -->
 
       <article class="portfolio" data-page="portfolio">
+	  
+        <header>
+          <h2 class="h2 article-title">PortFolio</h2>
+        </header>
+		
+		<section class="timeline">
 
-				
-        <section class="projects">
-				 
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
 
-          <div class="filter-select-box">
-				  
-				   
-																																																																											 
-															   
-				   
-				  
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-												  
-
-									   
-																													 
-
-																													   
-				  
-
-																													   
-
-																		  
-													  
-									   
-            </button>
-
+            <h3 class="h3">Projects</h3>
           </div>
+		  
+		  <ol class="timeline-list">
+		  
+			<li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Automated Fruit Plucking Bot</h4>
+
+              <p class="timeline-text">
+                This bot was designed as a part of the eYantra Competetion organised by IIT Bombay and Ministry of Education, India. The bot was used to
+				detect the fruit's shape,size and color and identify the type of fruit and then segregate them accordingly. On Raspberry pi hardware, an optical
+				camera was attached which clicked the images of fruits and which then returned to python's libraries numPy and OpenCv which further identifies the
+				characteristics of fruit and give commands to the bot.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bluetooth Controlled Bot</h4>
+
+              <p class="timeline-text">
+                A Bluetooth Controlled Bot was designed which can be used for various surgical as well as military operations. The bot was equipped with
+				ultrasonic and gas sensors which detects movements and hazardeous gases respectively in its surroundings. And it was programmed with the 
+				Arduino microcontroller using python's OpenCv library to perform the necessary actions whenever an unwanted substance is detected.
+              </p>
+
+            </li>
+			
+			<li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Street Lights with automated Intensity Controller</h4>
+
+              <p class="timeline-text">
+                A prototype model was developed where street lights intensity was auto adjusted based on the number of vehicles on the road in order to save the
+				electricity. Ultrasonic sensors were used to detect the movements and number of vehicles which then further sent to the microcontroller and it runs on
+				the python programmed which analyses the numbers and calculates the most optimum amount of intensity of street lights required.
+              </p>
+
+            </li>
+
+          </ol>
+
+           
 
         </section>
 
