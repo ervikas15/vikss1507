@@ -1,0 +1,10 @@
+{
+  "Resources": {
+    "tests3": {
+      "Type" : "AWS::S3::Bucket",
+      "Properties" : {
+          "BucketName" : "esttt-319952300194"
+      }
+    }
+  }
+}
